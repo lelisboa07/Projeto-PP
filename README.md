@@ -1,5 +1,102 @@
 # Projeto-PP
 
+# planejamento_pp
+
+# Projeto Profissional - Desenvolvimento de Sistemas
+
+**Aluno:** Letícia da Rosa Lisboa
+
+**Título do Projeto:** Conjunto Educação
+
+**Repositório:** [https://github.com/lelisboa07/Projeto-PP](https://github.com/lelisboa07/Projeto-PP)
+
+**Professor Orientador:** Rafaella Egues da Rosa
+
+**Período:** Maio a Novembro de 2025
+
+---
+
+## 🗓️ MAIO – Planejamento e Início do Back-end
+
+- [x]  Escolher a stack (front/back/banco)
+- [x]  Criar repositório GitHub e organizar README inicial
+- [x]  Estruturar diretórios do projeto
+- [x]  Criar banco de dados e diagrama ER/MER
+- [ ]  Criar tabelas: Usuários, Publicações, Comentários, ImagemPerfil, Seguir, Chat e Mensagem
+- [ ]  Criar as entidades e conexão com o banco
+- [ ]  Implementar CRUD de uma entidade principal
+- [ ]  Testar endpoints com Postman ou Insomnia
+
+---
+
+## 🗓️ JUNHO – Desenvolvimento e Deploy do Back-end
+
+- [ ]  Adicionar autenticação e middleware
+- [ ]  Adicionar validações nos inputs
+- [ ]  Criar outras entidades e relacionamentos
+- [ ]  Finalizar rotas da API
+- [ ]  Documentar rotas com Swagger (opcional)
+- [ ]  Fazer deploy da API (Render, Vercel, Clever Cloud…)
+
+---
+
+## 🗓️ JULHO – Front-end e Integração com API
+
+- [ ]  Iniciar desenvolvimento com base no Figma
+- [ ]  Criar rotas, páginas e componentes principais
+- [ ]  Consumir dados da API
+- [ ]  Exibir dados dinamicamente (GET)
+- [ ]  Criar formulários de cadastro/edição
+- [ ]  Aplicar estilos e responsividade
+
+---
+
+## 🗓️ AGOSTO – Testes e Melhorias
+
+- [ ]  Testar todos os fluxos do sistema
+- [ ]  Corrigir bugs e falhas visuais
+- [ ]  Tratar erros de login e formulários
+- [ ]  Otimizar interface (usabilidade e acessibilidade)
+- [ ]  Entregar primeira versão funcional
+
+---
+
+## 🗓️ SETEMBRO – Documentação e Revisão
+
+- [ ]  Atualizar o artigo com prints da aplicação
+- [ ]  Criar vídeo ou GIF demonstrativo (opcional)
+- [ ]  Escrever documentação técnica do código
+- [ ]  Fazer checklist completo do projeto
+
+---
+
+## 🗓️ OUTUBRO – Apresentação Final
+
+- [ ]  Criar roteiro da apresentação (slide ou pitch)
+- [ ]  Ensaiar apresentação (tempo estimado: 10 min)
+- [ ]  Apresentar para banca simulada (se houver)
+- [ ]  Apresentação final
+
+---
+
+## 🗓️ NOVEMBRO – Finalização e Entrega
+
+- [ ]  Revisar e entregar artigo final
+- [ ]  Entregar links finais (GitHub + documentação)
+- [ ]  Fazer backup da aplicação e banco
+- [ ]  Receber avaliação final
+
+---
+
+## 📌 Anotações
+
+- Data do próximo check-in: `06/06/2025`
+- Dificuldades enfrentadas:
+    - …
+- Próximas metas:
+    - …
+
+
 REQUISITOS FUNCIONAIS 
 
 RF01 – Cadastro de novos usuários  
