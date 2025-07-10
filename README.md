@@ -22,31 +22,30 @@
 - [x]  Criar repositório GitHub e organizar README inicial
 - [x]  Estruturar diretórios do projeto
 - [x]  Criar banco de dados e diagrama ER/MER
-- [ ]  Criar tabelas: Usuários, Publicações, Comentários, ImagemPerfil, Seguir, Chat e Mensagem
-- [ ]  Criar as entidades e conexão com o banco
-- [ ]  Implementar CRUD de uma entidade principal
-- [ ]  Testar endpoints com Postman ou Insomnia
+- [x]  Criar tabelas: Usuários, Publicações, Comentários, ImagemPerfil, Seguir, Chat e Mensagem
+- [x]  Criar as entidades e conexão com o banco
+- [x]  Implementar CRUD de uma entidade principal
 
 ---
 
 ## 🗓️ JUNHO – Desenvolvimento e Deploy do Back-end
 
-- [ ]  Adicionar autenticação e middleware
-- [ ]  Adicionar validações nos inputs
-- [ ]  Criar outras entidades e relacionamentos
+- [x]  Adicionar autenticação e middleware
+- [x]  Adicionar validações nos inputs
+- [x]  Criar outras entidades e relacionamentos
 - [ ]  Finalizar rotas da API
-- [ ]  Documentar rotas com Swagger (opcional)
 - [ ]  Fazer deploy da API (Render, Vercel, Clever Cloud…)
 
 ---
 
 ## 🗓️ JULHO – Front-end e Integração com API
 
-- [ ]  Iniciar desenvolvimento com base no Figma
-- [ ]  Criar rotas, páginas e componentes principais
+- [x]  Iniciar desenvolvimento com base no Figma
+- [x]  Criar rotas, páginas e componentes principais
+- [x]  Criar formulários de cadastro/edição
+- [ ]  Mudança de tecnologia - HTML, CSS E Javascript para React Native
 - [ ]  Consumir dados da API
 - [ ]  Exibir dados dinamicamente (GET)
-- [ ]  Criar formulários de cadastro/edição
 - [ ]  Aplicar estilos e responsividade
 
 ---
@@ -90,7 +89,7 @@
 
 ## 📌 Anotações
 
-- Data do próximo check-in: `06/06/2025`
+- Data do próximo check-in: `10/07/2025`
 - Dificuldades enfrentadas:
     - …
 - Próximas metas:
