@@ -1,0 +1,258 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-image: url(./assets/fundo2.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-color: #c37fff;
+  }
+
+  .cabecalho-principal {
+    display: flex;
+    justify-content: space-between; /* logo à esquerda, perfil à direita */
+    align-items: center;
+    height: 25vh;
+    padding: 0 2rem; /* espaço nas bordas */
+    position: relative; /* para centralizar o menu com position absolute */
+}
+  
+  .logo {
+    width: 12vw;
+  }
+
+  .div-telas {
+    background-color: #c992f8;
+    box-shadow: 0 4px 8px #472664;
+    padding: 1rem;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-around;
+    width: 50vw;
+
+    position: absolute; /* posiciona em relação ao header */
+    left: 50%;
+    transform: translateX(-50%); /* centraliza horizontalmente */
+}
+
+  .div-telas a{
+    color: black;
+    font-size: 20px;
+    text-decoration: none;
+  }
+
+  .perfil{
+    width: 8vw;
+  }
+
+  .main-index{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60vh;
+  }
+
+  .main-index .form{
+    background-color: #fff;
+    padding: 2rem;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 4px 8px #472664;
+    border: none;
+    border-radius: 15px;
+    width: 25vw;
+    height: auto;
+}
+
+.form a{
+    margin-top: 15px;
+    color: black;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.form label{
+    font-size: 18px;
+}
+
+.form h1{
+    margin-bottom: 10px;
+}
+
+.form-input{
+    display: flex;
+    flex-direction: column;
+}
+
+.form-input input{
+    width: 15vw;
+    padding: 8px;
+    margin: 8px 0;
+    border-radius: 8px;
+    border: 0.5px solid black;
+}
+
+.button-form{
+    width: 15vw;
+    padding: 10px;
+    margin-top: 15px;
+    border-radius: 8px;
+    border: none;
+    background-color: #ab4cff;
+    color: #FFF;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.main-index button:hover{
+    background-color: #c37fff;
+}
+
+/* Página Login */
+
+.formLogin {
+    background-color: #fff;
+    padding: 2rem;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 4px 8px #472664;
+    border: none;
+    border-radius: 15px;
+    width: 25vw;
+    height: auto;
+}
+
+.formLogin a{
+    margin-top: 15px;
+    color: black;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.formLogin label{
+    font-size: 18px;
+}
+
+.formLogin h1{
+    margin-bottom: 10px;
+}
+
+
+/* Página Principal */
+
+.main-principal{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+  }
+
+.section{
+    background-color: #fff;
+    padding: 2rem;
+    padding-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 4px 8px #472664;
+    border: none;
+    border-radius: 15px;
+    width: 50vw;
+    height: auto;
+    margin: 10px;
+}
+
+.section h4{
+    margin-bottom: 10px;
+}
+
+.section p{
+    margin-bottom: 10px;
+}
+
+.div-image{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.fotos{
+    width: 15vw;
+}
+
+.div-acoes{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+
+.div-acoes img{
+    width: 2vw;
+}
+
+
+.main-perfil{
+    display: flex;
+}
+
+.primeiro-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30vw;
+}
+
+#img-perfil{
+    width: 25vw;
+}
+
+.divisa{
+    border: none;
+    border-left: 1px solid #ab4cff;
+    height: 60vh;
+}
+
+.segundo-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 70vw;
+}
+
+#publicacao{
+    width: 45vw;
+    height: 15vh;
+    border: solid 1px #472664;
+    margin-top: 15px;
+    border-radius: 8px;
+}
+
+#button-post{
+    width: 8vw;
+    padding: 8px;
+    margin-top: 15px;
+    border-radius: 8px;
+    border: none;
+    background-color: #ab4cff;
+    color: #FFF;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+  .main-index .formEdit{
+    background-color: #fff;
+    padding: 2rem;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 4px 8px #472664;
+    border: none;
+    border-radius: 15px;
+    width: 25vw;
+    height: auto;
+}

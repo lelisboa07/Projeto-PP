@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfil</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="cabecalho-principal">
+        <div>
+            <a href="principal.html"><img class="perfil" src="./assets/seta.png" alt=""></a>
+        </div>
+        <div>
+            <img class="logo" src="./assets/logo.png" alt="">
+        </div>
+    </header>
+    <main class="main-perfil">
+        <section class="primeiro-container">
+            <img id="img-perfil" src="./assets/perfil.png" alt="">
+            <a href="editPerfil.html"><button class="button-form" type="submit">Editar Perfil</button></a>
+            <button id="btn-deletar" class="button-form" type="button">Deletar Perfil</button>
+            <button id="btn-sair" class="button-form" type="button">Sair</button>
+        </section>
+
+        <hr class="divisa">
+
+        <section class="segundo-container">
+            <section class="section">
+                <h3>Criar nova publicação:</h3>
+                <form action="">
+                    <textarea id="publicacao" cols="82" rows="8"></textarea>
+                    <button id="button-post" type="submit">Publicar</button>
+                </form>
+
+            </section>
+            <section class="section">
+                <h4>@Usuário_1</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam ipsam voluptatibus magni suscipit
+                    dolorem et recusandae necessitatibus, veniam error deleniti! Voluptatem impedit nemo amet officiis
+                    consequuntur suscipit repellat provident sequi.</p>
+                <hr>
+                <div class="div-acoes">
+                    <img src="./assets/comentario.png" alt="">
+                    <img src="./assets/coracao.png" alt="">
+                </div>
+            </section>
+            <section class="section">
+                <h4>@Usuário_1</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam ipsam voluptatibus magni suscipit
+                    dolorem et recusandae necessitatibus, veniam error deleniti!</p>
+                <div class="div-image">
+                    <img class="fotos" src="./assets/teste.webp" alt="">
+                </div>
+                <hr>
+                <div class="div-acoes">
+                    <img src="./assets/comentario.png" alt="">
+                    <img src="./assets/coracao.png" alt="">
+                </div>
+            </section>
+            <section class="section">
+                <h4>@Usuário_1</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam ipsam voluptatibus magni suscipit
+                    dolorem et recusandae necessitatibus, veniam error deleniti! Voluptatem impedit nemo amet officiis
+                    consequuntur suscipit repellat provident sequi. Voluptatem impedit nemo amet officiis consequuntur
+                    suscipit repellat provident sequi.</p>
+                <hr>
+                <div class="div-acoes">
+                    <img src="./assets/comentario.png" alt="">
+                    <img src="./assets/coracao.png" alt="">
+                </div>
+            </section>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+
+</html>
