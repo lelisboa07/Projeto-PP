@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="cabecalho-principal">
+        <div>
+            <img class="logo" src="./assets/logo.png" alt="Logo">
+        </div>
+        <div class="div-telas">
+            <a href="principal.html">Principal</a>
+            <a href="forum.html">Fórum</a>
+            <a href="chat.html">Chat</a>
+            <a href="perfil.html">Perfil</a>
+        </div>
+        <div>
+            <img class="perfil" src="./assets/perfil.png" alt="Perfil">
+        </div>
+    </header>
+
+    <main class="main-principal">
+        <div class="chat-container private-chat-container">
+            
+            <div id="user-list-container">
+                <h5>Usuários Online</h5>
+                <div id="user-list">
+                    </div>
+            </div>
+
+            <div id="chat-area">
+                <h4 id="chat-with-header">Selecione um usuário para conversar</h4>
+                
+                <ul id="messages">
+                    </ul>
+
+                <form id="chat-form" action="" style="display: none;">
+                    <input id="chat-input" autocomplete="off" placeholder="Digite sua mensagem..."/>
+                    <button class="button-form">Enviar</button>
+                </form>
+            </div>
+
+        </div>
+    </main>
+
+    <script src="https://cdn.socket.io/4.7.5/socket.io.min.js"></script>
+    <script src="chat.js"></script>
+</body>
+</html>
