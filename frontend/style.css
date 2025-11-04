@@ -1,0 +1,554 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-image: url(./assets/fundo2.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+
+  .cabecalho-principal {
+    display: flex;
+    justify-content: space-between; /* logo à esquerda, perfil à direita */
+    align-items: center;
+    height: 25vh;
+    padding: 0 2rem; /* espaço nas bordas */
+    position: relative; /* para centralizar o menu com position absolute */
+}
+  
+  .logo {
+    width: 12vw;
+  }
+
+  .div-telas {
+    background-color: #c992f8;
+    box-shadow: 0 4px 8px #472664;
+    padding: 1rem;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-around;
+    width: 50vw;
+
+    position: absolute; /* posiciona em relação ao header */
+    left: 50%;
+    transform: translateX(-50%); /* centraliza horizontalmente */
+}
+
+  .div-telas a{
+    color: black;
+    font-size: 20px;
+    text-decoration: none;
+  }
+
+  .perfil{
+    width: 8vw;
+  }
+
+  .main-index{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60vh;
+  }
+
+  .section-index{
+    background-color: #fff;
+    padding: 2rem;
+    padding-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;    
+    text-align: justify;      
+    box-shadow: 0 4px 8px #472664;
+    border: none;
+    border-radius: 15px;
+    width: 50vw;
+    height: 55vh;
+    margin: 10px;
+  }
+
+  .titulo-texto{
+    margin-bottom: 20px;
+  }
+
+  .texto{
+    margin: 0 2rem;
+    font-size: 18px;
+  }
+
+  .main-cadastro{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60vh;
+  }
+
+  /* Página Cadastro */
+
+  .main-cadastro .form{
+    background-color: #fff;
+    padding: 2rem;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 4px 8px #472664;
+    border: none;
+    border-radius: 15px;
+    width: 25vw;
+    height: auto;
+}
+
+.form a{
+    margin-top: 15px;
+    color: black;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.form label{
+    font-size: 18px;
+}
+
+.form h1{
+    margin-bottom: 10px;
+}
+
+.form-input{
+    display: flex;
+    flex-direction: column;
+}
+
+.form-input input{
+    width: 15vw;
+    padding: 8px;
+    margin: 8px 0;
+    border-radius: 8px;
+    border: 0.5px solid black;
+}
+
+.button-form{
+    width: 15vw;
+    padding: 10px;
+    margin-top: 15px;
+    border-radius: 8px;
+    border: none;
+    background-color: #ab4cff;
+    color: #FFF;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.main-cadastro button:hover{
+    background-color: #c37fff;
+}
+
+/* Página Login */
+
+.formLogin {
+    background-color: #fff;
+    padding: 2rem;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 4px 8px #472664;
+    border: none;
+    border-radius: 15px;
+    width: 25vw;
+    height: auto;
+}
+
+.formLogin a{
+    margin-top: 15px;
+    color: black;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.formLogin label{
+    font-size: 18px;
+}
+
+.formLogin h1{
+    margin-bottom: 10px;
+}
+
+
+/* Página Principal */
+
+.main-principal{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+  }
+
+.section{
+    background-color: #fff;
+    padding: 2rem;
+    padding-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 4px 8px #472664;
+    border: none;
+    border-radius: 15px;
+    width: 50vw;
+    height: auto;
+    margin: 10px;
+}
+
+.section h4{
+    margin-bottom: 10px;
+}
+
+.section p{
+    margin-bottom: 10px;
+}
+
+.div-image{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.fotos{
+    width: 15vw;
+}
+
+.div-acoes{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+
+.div-acoes img{
+    width: 2vw;
+}
+
+
+/* Página Perfil */
+.main-perfil{
+    display: flex;
+}
+
+.primeiro-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30vw;
+}
+
+#img-perfil{
+    width: 25vw;
+}
+
+.divisa{
+    border: none;
+    border-left: 1px solid #ab4cff;
+    height: 60vh;
+}
+
+.segundo-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 70vw;
+}
+
+#publicacao{
+    width: 45vw;
+    height: 15vh;
+    border: solid 1px #472664;
+    margin-top: 15px;
+    border-radius: 8px;
+}
+
+#button-post{
+    width: 8vw;
+    padding: 8px;
+    margin-top: 15px;
+    border-radius: 8px;
+    border: none;
+    background-color: #ab4cff;
+    color: #FFF;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+
+/* Página Edição */
+  .main-cadastro .formEdit{
+    background-color: #fff;
+    padding: 2rem;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 4px 8px #472664;
+    border: none;
+    border-radius: 15px;
+    width: 25vw;
+    height: auto;
+}
+
+/* ============================================= */
+/* ESTILOS DO FÓRUM                              */
+/* ============================================= */
+
+/* Formulário de criar post */
+.create-post-form {
+    width: 50vw; /* Usa a mesma largura do .section */
+    margin: 20px auto;
+}
+
+.create-post-form textarea {
+    width: 100%;
+    min-height: 80px;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #472664;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+/* O .button-form já existe e será usado */
+
+/* Container dos posts (posts-container) */
+#posts-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+/* Card de um post individual (usando .section) */
+.post-card {
+    width: 50vw;
+    height: auto;
+}
+
+.post-author {
+    color: #472664; /* Cor do tema */
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.post-content {
+    font-size: 1.1rem;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+/* Seção de comentários */
+.comments-section {
+    border-top: 1px solid #eee;
+    margin-top: 15px;
+    padding-top: 15px;
+}
+
+.comments-section h6 {
+    font-weight: bold;
+    color: #472664; /* Cor do tema */
+}
+
+.comments-list {
+    max-height: 200px;
+    overflow-y: auto;
+    margin-bottom: 15px;
+}
+
+.comment {
+    background-color: #f8f8f8;
+    padding: 8px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+.comment strong {
+    color: #ab4cff; /* Cor do tema */
+}
+.comment p {
+    margin: 0;
+    padding-left: 5px;
+    display: inline;
+}
+
+.no-comments {
+    font-style: italic;
+    color: #888;
+    font-size: 14px;
+}
+
+.comment-form {
+    display: flex;
+    gap: 10px;
+}
+
+.comment-input {
+    flex-grow: 1;
+    padding: 8px;
+    border-radius: 8px; /* Combinando com seu estilo de input */
+    border: 0.5px solid black;
+}
+
+.comment-submit-btn {
+    width: auto;
+    padding: 8px 15px;
+    margin-top: 0;
+    font-size: 14px;
+}
+
+/* Botão de Like */
+.like-btn {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 1.5rem;
+    padding: 0 5px;
+}
+
+.like-count {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #472664; /* Cor do tema */
+    margin-left: 5px;
+}
+
+
+/* ============================================= */
+/* ESTILOS DO CHAT PRIVADO                       */
+/* ============================================= */
+
+.chat-container {
+    width: 60vw; /* Um pouco maior que o .section */
+    height: 70vh; /* Altura fixa */
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px #472664;
+    overflow: hidden; /* Para os cantos arredondados */
+}
+
+.private-chat-container {
+    display: flex;
+    flex-direction: row; /* Layout em colunas */
+    padding: 0; 
+}
+
+/* Coluna da Esquerda: Lista de Usuários */
+#user-list-container {
+    width: 30%;
+    height: 100%;
+    border-right: 1px solid #eee;
+    display: flex;
+    flex-direction: column;
+}
+
+#user-list-container h5 {
+    padding: 1rem;
+    margin: 0;
+    border-bottom: 1px solid #eee;
+    color: #472664; /* Cor do tema */
+}
+
+#user-list {
+    flex-grow: 1;
+    overflow-y: auto;
+}
+
+.user-list-item {
+    padding: 1rem;
+    cursor: pointer;
+    border-bottom: 1px solid #f4f4f4;
+    font-weight: 500;
+}
+
+.user-list-item:hover {
+    background-color: #f9f9f9;
+}
+
+.user-list-item.new-message-notification {
+    background-color: #f5edff; /* Roxo bem claro */
+    font-weight: bold;
+}
+
+/* Coluna da Direita: Área do Chat */
+#chat-area {
+    width: 70%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+#chat-with-header {
+    padding: 1rem;
+    margin: 0;
+    border-bottom: 1px solid #eee;
+    color: #472664; /* Cor do tema */
+    font-size: 1.2rem;
+}
+
+#messages {
+    list-style-type: none;
+    margin: 0;
+    padding: 1rem;
+    overflow-y: auto;
+    flex-grow: 1;
+    background-color: #fdfdfd;
+}
+
+#messages li {
+    padding: 0.5rem 0.75rem;
+    margin-bottom: 0.5rem;
+    border-radius: 10px;
+    max-width: 80%;
+    word-wrap: break-word;
+}
+
+#messages li.notification {
+    font-style: italic;
+    color: #888;
+    text-align: center;
+    background: transparent;
+}
+
+/* Mensagem Recebida */
+#messages li.received {
+    background: #f1f1f1;
+    text-align: left;
+    align-self: flex-start;
+}
+
+/* Mensagem Enviada */
+#messages li.sent {
+    background: #e9d0ff; /* Roxo claro para combinar com o tema */
+    text-align: left;
+    margin-left: auto; /* Alinha o 'li' à direita */
+}
+
+/* Formulário de chat */
+#chat-form {
+    display: flex;
+    padding: 1rem;
+    border-top: 1px solid #eee;
+    background-color: #fff;
+    gap: 10px;
+}
+
+#chat-input {
+    border: 1px solid #472664;
+    padding: 10px;
+    width: 100%;
+    border-radius: 8px; /* Combinando com seu estilo de input */
+    flex-grow: 1;
+}
+
+#chat-form .button-form {
+    width: auto;
+    padding: 10px 20px;
+    margin-top: 0; /* Remove margem do .button-form */
+}
